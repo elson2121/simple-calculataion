@@ -10,6 +10,14 @@ double subtract(double num1, double num2) {
     return num1 - num2;
 }
 
+//Function to divide two numbers
+double divide(double numerator, double denominator) {
+    if (denominator == 0.0) {
+        throw std::invalid_argument("Error: Cannot divide by zero.");
+    }
+    return numerator / denominator;
+}
+
 int main() {
     double num1, num2;
     char operation;
