@@ -5,6 +5,10 @@
 double add(double num1, double num2) {
     return num1 + num2;
 }
+// Function to subtract two numbers
+double subtract(double num1, double num2) {
+    return num1 - num2;
+}
 
 int main() {
     double num1, num2;
