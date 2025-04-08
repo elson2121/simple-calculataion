@@ -1,7 +1,10 @@
 #include <iostream>
 #include <stdexcept> // For exception handling
 
-
+// Function to add two numbers
+double add(double num1, double num2) {
+    return num1 + num2;
+}
 
 int main() {
     double num1, num2;
